@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import firstCar from '../assets/firstCar.jpg'
+import GetCar from '@/components/getCar';
 // import secondCar from '../assets/secondCar.png'
 // import thirdCar from '../assets/thirdCar.png'
 export default function Home() {
   return (
     <div>
+        <div className='bg-[#fafafaa8]'>
         <section className='flex items-center h-[82vh]'>
           <div className='basis-1/2 p-2 leading-[2.7rem] ms-24'>
             <p className='text-neutral-800'>Plan your trip now</p>
@@ -16,9 +18,11 @@ export default function Home() {
             </div>
           </div>
           <div className='basis-1/2'>
-            <Image width={650} src={firstCar}/>
+            <Image className=' mix-blend-multiply' width={650} src={firstCar}/>
           </div>
         </section>
+        <GetCar></GetCar>
+        </div>
     </div>
   );
 }
