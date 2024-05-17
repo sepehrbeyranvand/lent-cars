@@ -1,0 +1,34 @@
+{
+    "trips":[
+        {
+            "name":"Mercedes Benz Charger",
+            "price":"45$",
+            "doors":"4",
+            "year":"2012"
+        },{
+            "name":"Fiat Volt",
+            "price":"60$",
+            "doors":"4",
+            "year":"2016"
+        },
+        {
+            "name":"Ferrari Golf",
+            "price":"80$",
+            "doors":"2",
+            "year":"2020"
+        },{
+
+        },{
+            "name":"Jaguar Challenger",
+            "price":"55$",
+            "doors":"2",
+            "year":"2022"
+        },
+        {
+            "name":"Kia Element",
+            "price":"40$",
+            "doors":"4",
+            "year":"2017"
+        }
+    ]
+}
