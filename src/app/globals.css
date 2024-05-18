@@ -13,3 +13,9 @@ section h1{
     font-family: 'Copilme', sans-serif;
 
 }
+
+table , th , td{
+    border-collapse: collapse;
+    border: 1px  solid rgb(9, 118, 118);
+    padding: 6px;
+}

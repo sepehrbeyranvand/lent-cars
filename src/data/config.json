@@ -1,43 +1,93 @@
 {
     "trips":[
         {
-            "name":"Mercedes Benz Charger",
-            "price":"45$",
-            "doors":"4",
-            "year":"2012",
+            "Model":"Benz",
+            "Mark":
+            "C1",
+            "Year":
+            "2020",
+            "Doors":
+            "4/5",
+            "AC":
+            "Yes",
+            "Transmission":
+            "Auto",
+            "Fuel":
+            "Gasoline",
             "id":1,
+            "price":"55$",
             "src":"https://i.ibb.co/5T73N6t/secondID.jpg"
         },{
-            "name":"Fiat Volt",
-            "price":"60$",
-            "doors":"4",
-            "year":"2016",
+            "Model":"Toyota",
+            "Mark":
+            "Alpine",
+            "Year":
+            "2022",
+            "Doors":
+            "2/5",
+            "AC":
+            "Yes",
+            "Transmission":
+            "Manual",
+            "Fuel":
+            "Gasoline",
             "id":2,
+            "price":"60$",
             "src":"https://i.ibb.co/xzHrXZk/fourthID.jpg"
         },
         {
-            "name":"Ferrari Golf",
-            "price":"80$",
-            "doors":"2",
-            "year":"2020",
+            "Model":"Chrysler ",
+            "Mark":
+            "Wrangler",
+            "Year":
+            "2019",
+            "Doors":
+            "2/5",
+            "AC":
+            "Yes",
+            "Transmission":
+            "Auto",
+            "Fuel":
+            "Gaz",
             "id":3,
+            "price":"45$",
             "src":"https://i.ibb.co/5T73N6t/secondID.jpg"
         },{
 
         },{
-            "name":"Jaguar Challenger",
-            "price":"55$",
-            "doors":"2",
-            "year":"2022",
+            "Model":"Jaguar ",
+            "Mark":
+            "XC90",
+            "Year":
+            "2018",
+            "Doors":
+            "2/5",
+            "AC":
+            "Yes",
+            "Transmission":
+            "Auto",
+            "Fuel":
+            "Gasoline",
             "id":4,
+            "price":"90$",
             "src":"https://i.ibb.co/1KwP9Qp/thirdID.jpg"
         },
         {
-            "name":"Kia Element",
-            "price":"40$",
-            "doors":"4",
-            "year":"2017",
+            "Model":"Chevrolet",
+            "Mark":
+            "CTS",
+            "Year":
+            "2015",
+            "Doors":
+            "4/5",
+            "AC":
+            "Yes",
+            "Transmission":
+            "Manual",
+            "Fuel":
+            "Gasoline",
             "id":5,
+            "price":"50$",
             "src":"https://i.ibb.co/bWdRSPG/fifthID.jpg"
         }
     ]
