@@ -2,6 +2,7 @@ import Image from 'next/image';
 import firstCar from '../assets/firstCar.jpg'
 import GetCar from '@/components/getCar';
 import EasyGet from '@/components/easyGet';
+import ChooseCar from '@/components/chooseCar';
 // import secondCar from '../assets/secondCar.png'
 // import thirdCar from '../assets/thirdCar.png'
 export default function Home() {
@@ -25,6 +26,9 @@ export default function Home() {
         <GetCar></GetCar>
         </div>
         <EasyGet></EasyGet>
+        <div>
+          <ChooseCar></ChooseCar>
+        </div>
     </div>
   );
 }
