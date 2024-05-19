@@ -6,6 +6,7 @@ import ChooseCar from '@/components/chooseCar';
 import SmallBg from '@/components/smallBg';
 import Accordions from '@/components/accordion';
 import OurApp from '@/components/ourApp';
+import Footer from '@/components/footer';
 // import secondCar from '../assets/secondCar.png'
 // import thirdCar from '../assets/thirdCar.png'
 export default function Home() {
@@ -37,8 +38,8 @@ export default function Home() {
         </div>
         <div className="flex flex-col justify-center items-center leading-[3rem]">
         <h1 className=" font-extrabold text-4xl p-3">FAQ</h1>
-        <h2 className="font-extrabold text-3xl p-3">Frequently Asked Questions</h2>
-        <p className="text-neutral-600 w-[80%] text-center p-3">
+        <h2 className="font-extrabold text-[2.6rem] p-3">Frequently Asked Questions</h2>
+        <p className="text-neutral-600 w-[60%] text-center p-3">
           Frequently Asked Questions About the Car Rental Booking Process on Our
           Website: Answers to Common Concerns and Inquiries.
         </p>
@@ -48,6 +49,9 @@ export default function Home() {
         </div>
         <div id='ourApp' className='h-[85vh] mt-[8rem] flex justify-start items-center'>
           <OurApp></OurApp>
+        </div>
+        <div>
+          <Footer></Footer>
         </div>
     </div>
   );

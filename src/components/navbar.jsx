@@ -21,7 +21,7 @@ export default function Navbar(){
             </div>
             <div className="flex gap-x-7 me-10">
                 <button className="font-semibold">Sign In</button>
-                <button className="text-white bg-teal-500 p-[.85rem] rounded-sm w-32 shadow-lg shadow-teal-200 hover:bg-teal-600 transition .4s ease-in-out duration-200 hover:animate-bounce">Register</button>
+                <button className="text-white bg-teal-500 p-[.85rem] rounded-sm w-32 shadow-lg shadow-teal-200 hover:bg-teal-600 transition .4s ease-in-out duration-200">Register</button>
             </div>
         </div>
     )
