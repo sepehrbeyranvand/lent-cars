@@ -22,7 +22,7 @@ export default function GetCar() {
               <i className="fa fa-car text-xl me-2"></i>Select Your Car Types
               <span className="text-red-500">*</span>
             </label>
-           <select value={carType} className="border border-1 border-[#ccd7e6] outline-none p-3 placeholder:text-[#ababab]" name="" id="">
+           <select onChange={(e)=>setCarType(e.target.value)} value={carType} className="border border-1 border-[#ccd7e6] outline-none p-3 placeholder:text-[#ababab]" name="" id="">
               <option value=""></option>
               <option value="Mercedes Benz Charger">Mercedes Benz Charger</option>
               <option value="Fiat Volt">Fiat Volt</option>
@@ -38,6 +38,7 @@ export default function GetCar() {
             </label>
             <select
             value={pickUpCity}
+            onChange={(e)=>setPickUpCity(e.target.value)}
              className="border border-1 border-[#ccd7e6] outline-none p-3 placeholder:text-[#ababab]"
               name=""
               id=""
@@ -58,6 +59,7 @@ export default function GetCar() {
             </label>
             <select
             value={dropOfCity}
+            onChange={(e)=>setDropOfCity(e.target.value)}
              className="border border-1  border-[#ccd7e6] outline-none p-3 placeholder:text-[#ababab]"
               name=""
               id=""
@@ -78,6 +80,7 @@ export default function GetCar() {
             </label>
             <input
             value={pickUpTime}
+            onChange={(e)=>setPickUpTime(e.target.value)}
               type="datetime-local"
               className=" text-sm text-neutral-600 border border-1 border-[#ccd7e6] outline-none p-3 placeholder:text-[#ababab]"
             />
@@ -89,6 +92,7 @@ export default function GetCar() {
             </label>
             <input
             value={dropOfTime}
+            onChange={(e)=>setDropOfTime(e.target.value)}
               type="datetime-local"
               className=" text-sm text-neutral-600 border border-1 border-[#ccd7e6] outline-none p-3 placeholder:text-[#ababab]"
             />

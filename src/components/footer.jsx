@@ -17,25 +17,44 @@ export default function Footer() {
             sepehr7797@gmail.com
           </p>
         </div>
+        <div className="flex justify-start items-center">
+          <i className="fa fa-external-link p-3"></i>
+          <a
+            className="text-teal-700"
+            target="_blank"
+            href="https://www.sepehrbey.ir/"
+          >
+            Sepehr Beyranvand
+          </a>
+        </div>
       </div>
       <div className="flex flex-col items-center basis-1/4">
         <h1 className="text-3xl font-extrabold p-3">Company</h1>
-        <ul className=" leading-[3rem]">
-          <li className="text-neutral-700 text-lg hover:text-teal-500 transition .4s ease-in-out duration-200 cursor-pointer">
+        <ul className="flex flex-col items-center ">
+          <li className="text-neutral-700 text-lg p-1 hover:text-teal-500 transition .4s ease-in-out duration-200 cursor-pointer">
             Iran
           </li>
-          <li className="text-neutral-700 text-lg hover:text-teal-500 transition .4s ease-in-out duration-200 cursor-pointer">
-            United state
+          <li className="text-neutral-700 text-lg p-1 hover:text-teal-500 transition .4s ease-in-out duration-200 cursor-pointer">
+            United States
           </li>
-          <li className="text-neutral-700 text-lg hover:text-teal-500 transition .4s ease-in-out duration-200 cursor-pointer">
+          <li className="text-neutral-700 text-lg p-1 hover:text-teal-500 transition .4s ease-in-out duration-200 cursor-pointer">
+          United Arab Emirates
+          </li>
+          <li className="text-neutral-700 text-lg p-1 hover:text-teal-500 transition .4s ease-in-out duration-200 cursor-pointer">
+            Spain
+          </li>
+          <li className="text-neutral-700 text-lg p-1 hover:text-teal-500 transition .4s ease-in-out duration-200 cursor-pointer">
             England
           </li>
-          <li className="text-neutral-700 text-lg hover:text-teal-500 transition .4s ease-in-out duration-200 cursor-pointer">
-            Spain
+          <li className="text-neutral-700 text-lg p-1 hover:text-teal-500 transition .4s ease-in-out duration-200 cursor-pointer">
+            India
+          </li>
+          <li className="text-neutral-700 text-lg p-1 hover:text-teal-500 transition .4s ease-in-out duration-200 cursor-pointer">
+            Japan
           </li>
         </ul>
       </div>
-      <div className="flex items-center flex-col leading-8 basis-1/4">
+      <div className="flex items-center flex-col leading-[2.5rem] basis-1/4">
         <h1 className="text-3xl font-extrabold p-3">WORKING HOURS</h1>
         <p>Mon - Fri: 9:00AM - 9:00PM</p>
         <p>Sat: 9:00AM - 19:00PM</p>
