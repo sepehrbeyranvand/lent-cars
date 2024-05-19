@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import firstCar from '../assets/firstCar.jpg'
-import faqImg from '../assets/faqImg.png'
 import GetCar from '@/components/getCar';
 import EasyGet from '@/components/easyGet';
 import ChooseCar from '@/components/chooseCar';
 import SmallBg from '@/components/smallBg';
 import Accordions from '@/components/accordion';
+import OurApp from '@/components/ourApp';
 // import secondCar from '../assets/secondCar.png'
 // import thirdCar from '../assets/thirdCar.png'
 export default function Home() {
@@ -45,6 +45,9 @@ export default function Home() {
       </div>
         <div id='accordion' className='p-4 h-[50vh]'>
           <Accordions></Accordions>
+        </div>
+        <div id='ourApp' className='h-[85vh] mt-[8rem] flex justify-start items-center'>
+          <OurApp></OurApp>
         </div>
     </div>
   );

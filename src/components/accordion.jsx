@@ -13,7 +13,7 @@ export default function Accordions() {
   };
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="w-[65%] shadow-2xl ms-[10.5em] p-6">
+      <div className="w-[65%] shadow-2xl ms-[10.5em] p-10">
         <Accordion>
           <AccordionItem
             onPress={() => activateIt(1)}
@@ -24,7 +24,7 @@ export default function Accordions() {
             "
           >
             <div>
-              <p className="text-neutral-500">
+              <p className="text-neutral-500 p-1">
                 Comparing rental car deals is important as it helps find the
                 best deal that fits your budget and requirements, ensuring you
                 get the most value for your money. By comparing various options,
@@ -45,7 +45,7 @@ export default function Accordions() {
             "
           >
             <div>
-              <p className="text-neutral-500">
+              <p className="text-neutral-500 p-1">
                 You can find car rental deals by researching online and
                 comparing prices from different rental companies. Websites such
                 as Expedia, Kayak, and Travelocity allow you to compare prices
@@ -65,7 +65,7 @@ export default function Accordions() {
             "
           >
             <div>
-              <p className="text-neutral-500">
+              <p className="text-neutral-500 p-1">
                 Book in advance: Booking your rental car ahead of time can often
                 result in lower prices. Compare prices from multiple companies:
                 Use websites like Kayak, Expedia, or Travelocity to compare

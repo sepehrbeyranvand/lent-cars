@@ -16,4 +16,33 @@ table , th , td{
 .flex-1> span{
     font-weight: bold;
     text-indent: 1px;
+    color: rgb(3, 106, 106);
+transition: all .4s ease-in-out 100ms;
+
+}
+.flex-1>span:hover{
+    color: rgb(4, 65, 65);
+}
+
+#ourApp{
+    background-image: url('https://i.postimg.cc/Qtvg224P/phoneImg.png');
+    background-color: #f8f8f8;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: auto;
+    padding: 6rem 0;
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(167, 225, 225);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: teal;
+    border-radius: 4px;
+}
+::-webkit-scrollbar{
+    width: 8px;
 }
