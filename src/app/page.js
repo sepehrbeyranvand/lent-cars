@@ -1,13 +1,16 @@
 import Image from 'next/image';
 import firstCar from '../assets/firstCar.jpg'
+import faqImg from '../assets/faqImg.png'
 import GetCar from '@/components/getCar';
 import EasyGet from '@/components/easyGet';
 import ChooseCar from '@/components/chooseCar';
+import SmallBg from '@/components/smallBg';
+import Accordions from '@/components/accordion';
 // import secondCar from '../assets/secondCar.png'
 // import thirdCar from '../assets/thirdCar.png'
 export default function Home() {
   return (
-    <div>
+    <div className=' *:font-rubik font-rubik'>
         <div className='bg-[#fafafaa8]'>
         <section className='flex items-center h-[82vh]'>
           <div className='basis-1/2 p-2 leading-[2.7rem] ms-24'>
@@ -28,6 +31,20 @@ export default function Home() {
         <EasyGet></EasyGet>
         <div>
           <ChooseCar></ChooseCar>
+        </div>
+        <div>
+          <SmallBg></SmallBg>
+        </div>
+        <div className="flex flex-col justify-center items-center leading-[3rem]">
+        <h1 className=" font-extrabold text-4xl p-3">FAQ</h1>
+        <h2 className="font-extrabold text-3xl p-3">Frequently Asked Questions</h2>
+        <p className="text-neutral-600 w-[80%] text-center p-3">
+          Frequently Asked Questions About the Car Rental Booking Process on Our
+          Website: Answers to Common Concerns and Inquiries.
+        </p>
+      </div>
+        <div id='accordion' className='p-4 h-[50vh]'>
+          <Accordions></Accordions>
         </div>
     </div>
   );
